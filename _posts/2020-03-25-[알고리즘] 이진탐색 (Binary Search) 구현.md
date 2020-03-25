@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "[알고리즘] 이진탐색 (Binary Search) 구현"
+title: "[알고리즘] 이진탐색 (Binary Search)"
 date: "2020-03-25"
 categories: algorithm
-tags
+tags: [알고리즘, 이진탐색]
 ---
-## [알고리즘] 이진탐색 (Binary Search) 구현
+## 이진탐색 (Binary Search) 구현
 
 1. 반복문을 이용한 구현 (Language: JAVA)
 
