@@ -1,3 +1,9 @@
+---
+layout: post
+title: "[알고리즘] 이진탐색 (Binary Search) 구현"
+date: "2020-03-25"
+categories: algorithm
+---
 ## [알고리즘] 이진탐색 (Binary Search) 구현
 
 1. 반복문을 이용한 구현 (Language: JAVA)
