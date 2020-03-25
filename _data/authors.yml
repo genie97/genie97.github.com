@@ -1,14 +1,16 @@
 # Sample Authors
 # Remove file or replace with your own
 
-Billy Rick:
-  name: Billy Rick
+GENIE:
+  name: HYOJIN LIM
   picture: /images/bio-photo-2.jpg
-  twitter: "@billyrick"
   links:
-    - title: Twitter
-      url: https://twitter.com/billyrick
-      icon: fab fa-twitter-square
+    - title: Instagram
+      url: https://instagram.com/hyo_genie97
+      icon: fab fa-instagram
+    - title: GitHub
+      url: https://github.com/genie97
+      icon: fab fa-github-square
 
 Cornelius Fiddlebone:
   name: Cornelius Fiddlebone
