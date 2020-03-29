@@ -1,3 +1,10 @@
+---
+layout: post
+title: "[알고리즘] 병합정렬"
+date: "2020-02-23"
+categories: algorithm
+---
+
 ## [알고리즘] Merge Sort (병합정렬) 구현
 
 >  여러 개의 정렬된 자료의 집합을 병합하여 한 개의 정렬된 집합으로 만드는 방식

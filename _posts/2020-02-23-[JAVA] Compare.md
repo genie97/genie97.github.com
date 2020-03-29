@@ -1,3 +1,10 @@
+---
+layout: post
+title: "[JAVA] 비교기 "
+date: "2020-02-23"
+categories: 자료구조
+---
+
 ## [JAVA] Compare
 
 1. 외부 비교기 (comparator)

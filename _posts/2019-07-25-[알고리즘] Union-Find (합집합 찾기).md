@@ -1,3 +1,10 @@
+---
+layout: post
+title: "[알고리즘] Union-Find"
+date: "2019-07-25"
+categories: algorithm
+---
+
 ## [알고리즘] Union-Find (합집합 찾기)
 
 **: Disjoint-Set Algorithm (서로소 집합 알고리즘)**

@@ -1,3 +1,10 @@
+---
+layout: post
+title: "[알고리즘] 위상정렬"
+date: "2019-07-25"
+categories: algorithm
+---
+
 ## [알고리즘] Topology Sort (위상정렬)
 
 **: 순서가 정해져 있는 작업을 차례로 수행**
