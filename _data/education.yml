@@ -1,5 +1,11 @@
 - layout: left
-  name: 가천대학교(성남)
+  name: 삼성청년SW아카데미
+  dates: 2020.01 - 현재
+  qualification:  <mark>3기</mark>
+  description: >
+    삼성청년소프트웨어 아카데미 교육생으로 활동중
+
+- name: 가천대학교(성남)
   dates: 2016.03 - 2020.02
   qualification:  <mark>소프트웨어학과 학사</mark>
   description: >
@@ -7,6 +13,7 @@
 
 - name: 동우여자고등학교
   dates: 2013.03 - 2016.02
+  qualification:  <mark>인문계</mark>
   description: >
-    경기도 소재 (인문계)
+    경기도 소재 고등학교 졸업
 
