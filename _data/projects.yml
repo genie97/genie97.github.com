@@ -1,13 +1,30 @@
 # Project template
 - layout: top-middle
-  name: Project 1
-  link: https://sproogen.github.io/modern-resume-theme
-  github: sproogen/modern-resume-theme
-  quote: >
-    Short overview of the project
+  name: R=VD
   description: >
-    Description about the work on/with the project
+    <center><h4>설명 예정</h4></center>
 
-- name: Project 2
+- layout: top-middle
+  name: 시나브로
+  link: https://github.com/G-Little-BY-Little/TermProject
   description: >
-    Description about the work on/with the project
+    <center><h4>설명 예정</h4></center>
+
+- layout: top-middle
+  name: 문제적 빙고
+  link: https://github.com/genie97/NetworkTerm_ProblemBingo
+  description: >
+    <center><h4>설명 예정</h4></center>
+
+- layout: top-middle
+  name: Sovigation
+  link: https://github.com/genie97/WebTerm_Sovigation
+  description: >
+    <center><h4>설명 예정</h4></center>
+
+- layout: top-middle
+  name: 내 맘대로! 전주로
+  link: https://github.com/JeonJuApp
+  description: >
+    <center><h4>설명 예정</h4></center>
+

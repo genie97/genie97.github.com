@@ -1,6 +1,24 @@
 <div class="container projects-container">
   <h3>{{ site.projects_title | default: "Projects" }}</h3>
+
   {% for project in site.data.projects %}
     {% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
   {% endfor %}
+<!--  <section>-->
+<!--    <article>-->
+<!--      <h4>R = VD</h4>-->
+<!--    </article>-->
+<!--    <article>-->
+<!--      <h4>문제적 빙고</h4>-->
+<!--    </article>-->
+<!--    <article>-->
+<!--      <h4>시나브로</h4>-->
+<!--    </article>-->
+<!--    <article>-->
+<!--      <h4>Sovigation</h4>-->
+<!--    </article>-->
+<!--    <article>-->
+<!--      <h4>내 맘대로! 전주로</h4>-->
+<!--    </article>-->
+<!--  </section>-->
 </div>
