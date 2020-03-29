@@ -1,14 +1,24 @@
 <div class="container intro-container">
-  <h3>{{ site.about_title | default: "About Me" }}</h3>
-  <div class="row clearfix">
-    {%- if site.about_profile_image -%}
-      <div class="col-xs-12 col-sm-4 col-md-3 no-print">
-        <span class="profile-img" style="background-image: url({{ site.about_profile_image | relative_url }})"></span>
-      </div>
-    {%- endif -%}
-    <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
-<!--      {{ site.about_content | strip | markdownify }}-->
-      안녕하세요! 개발자 <mark>임효진</mark>입니다. <br> 웹/앱 프로그래밍에 관심이 많습니다.
+    <h3>{{ site.about_title | default: "About Me" }}</h3>
+    <div class="row clearfix">
+        {%- if site.about_profile_image -%}
+        <div class="col-xs-12 col-sm-4 col-md-3 no-print">
+            <span class="profile-img"
+                  style="background-image: url({{ site.about_profile_image | relative_url }})"></span>
+        </div>
+        {%- endif -%}
+        <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
+            <!--      {{ site.about_content | strip | markdownify }}-->
+            <section style="font-size:15px;">
+                <article style="padding: 20px">
+                    <h2><b>소개</b></h2>
+                    안녕하세요! 신입 개발자<mark>임효진</mark>입니다.
+                    <br>웹/앱 프로그래밍에 관심이 많습니다.
+                </article>
+                <article style="padding: 20px">
+                    <h2><b>Skills</b></h2>
+                </article>
+            </section>
+        </div>
     </div>
-  </div>
 </div>
