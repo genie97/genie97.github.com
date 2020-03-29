@@ -13,6 +13,42 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
+
+####################################portfolio#########################################
+# Site
+repository: sproogen/modern-resume-theme
+favicon: images/favicon.ico
+
+# Personal info
+name: HYOJIN LIM
+email: hellogenie97@gmail.com
+website: https://github.com/genie97
+
+
+# Social links
+github_username: genie97
+instagram_username: hyo_genie97
+
+#facebook_username:
+#linkedin_username:
+#youtube_username:
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: /images/logo.icon.png
+
+# Projects Section
+projects_title: Projects #(Use this to override about projects section title)
+
+# Experience Section
+experience_title: Experience #(Use this to override about experience section title)
+
+# Education Section
+educaton_title: Education #(Use this to override about education section title)
+
+####################################main#########################################
+
 theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/light.css"
@@ -88,6 +124,12 @@ defaults:
     values:
       layout: post
       share: true
+  - scope:
+      path: "/portfolio/"
+      type: pages
+    values:
+      layout: default
+      share: false
 
 # Site Author
 author:
