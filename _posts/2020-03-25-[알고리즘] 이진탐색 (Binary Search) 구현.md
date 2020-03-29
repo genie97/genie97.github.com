@@ -1,10 +1,8 @@
 ---
 layout: post
 title: "[알고리즘] 이진탐색 (Binary Search)"
-date: "2020-03-25"
+date: "2019-07-25"
 categories: algorithm
-tags: [알고리즘, 이진탐색, 구현, 자바, C]
-last_modified_at: 2020.03.29
 ---
 ## 이진탐색 (Binary Search) 구현
 
