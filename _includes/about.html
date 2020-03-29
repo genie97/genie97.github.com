@@ -1,12 +1,20 @@
 <style>
-    li{
+    li {
         display: inline;
     }
-    img{
+    img {
     width: 120px;
     height: 120px;
     }
 </style>
+<script>
+    function hover(element, level) {
+        element.setAttribute('src', '/images/'+ level + '.png');
+    }
+    function unhover(element, src) {
+        element.setAttribute('src', '/images/'+ src + '.png');
+    }
+</script>
 <div class="container intro-container">
     <h3>{{ site.about_title | default: "About Me" }}</h3>
     <div class="row clearfix">
@@ -21,32 +29,34 @@
             <section style="font-size:15px;">
                 <article style="padding: 20px">
                     <h2><b>소개</b></h2>
-                    안녕하세요! 신입 개발자<mark>임효진</mark>입니다.
+                    안녕하세요! 신입 개발자
+                    <mark>임효진</mark>
+                    입니다.
                     <br>웹/앱 프로그래밍에 관심이 많습니다.
                 </article>
                 <article style="padding: 20px">
                     <h2><b>Skills</b></h2>
                     <ul>
-                        <li><img src="/images/html.png"></li>
-                        <li><img src="/images/css.png"></li>
-                        <li><img src="/images/js.png"></li>
-                        <li><img src="/images/jquery.png"></li>
-                        <li><img src="/images/android.png"></li>
-                        <li><img src="/images/java.png"></li>
+                        <li><img src="/images/html.png" onmouseover="hover(this, 'intermediate');" onmouseout="unhover(this, 'html');"></li>
+                        <li><img src="/images/css.png" onmouseover="hover(this, 'intermediate');" onmouseout="unhover(this, 'css');"></li>
+                        <li><img src="/images/js.png" onmouseover="hover(this, 'intermediate');" onmouseout="unhover(this, 'js');"></li>
+                        <li><img src="/images/jquery.png" onmouseover="hover(this, 'intermediate');" onmouseout="unhover(this, 'jquery');"></li>
+                        <li><img src="/images/android.png" onmouseover="hover(this, 'intermediate');" onmouseout="unhover(this, 'android');"></li>
+                        <li><img src="/images/java.png" onmouseover="hover(this, 'intermediate');" onmouseout="unhover(this, 'java');"></li>
                     </ul>
                 </article>
                 <article style="padding: 20px">
                     <h2><b>Framwork</b></h2>
                     <ul>
-                        <li><img src="/images/django.png"></li>
-                        <li><img src="/images/bootstrap.png"></li>
+                        <li><img src="/images/django.png" onmouseover="hover(this, 'basic');" onmouseout="unhover(this, 'django');"></li>
+                        <li><img src="/images/bootstrap.png" onmouseover="hover(this, 'intermediate');" onmouseout="unhover(this, 'bootstrap');"></li>
                     </ul>
                 </article>
                 <article style="padding: 20px">
                     <h2><b>Database</b></h2>
                     <ul>
-                        <li><img src="/images/mysql.png"></li>
-                        <li><img src="/images/firebase.png"></li>
+                        <li><img src="/images/mysql.png" onmouseover="hover(this, 'intermediate');" onmouseout="unhover(this, 'mysql');"></li>
+                        <li><img src="/images/firebase.png" onmouseover="hover(this, 'intermediate');" onmouseout="unhover(this, 'firebase');"></li>
                     </ul>
                 </article>
             </section>
