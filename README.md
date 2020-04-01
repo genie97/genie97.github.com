@@ -1,2 +1,3 @@
 # genie97.github.com
-:clipboard:
+:clipboard:개발 블로그
+
