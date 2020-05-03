@@ -4,9 +4,8 @@
 
 .page-wrapper {
   margin: 0 auto;
-  padding-left: 1em;
-  padding-right: 1em;
-  max-width: $main-sidebar-max-width;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .page-title {
@@ -14,7 +13,6 @@
   margin-bottom: 0.5em;
   font-family: $title-font-family;
   font-weight: $page-title-weight;
-  font-style: italic;
   letter-spacing: -2px;
 }
 
@@ -263,7 +261,7 @@
   .page-content {
     @include breakpoint($large) {
       float: right; // display: grid fallback
-      width: 78%; // display: grid fallback
+      width: 100%; // display: grid fallback
       min-width: 0;
     }
 
