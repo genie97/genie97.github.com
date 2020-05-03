@@ -17,8 +17,9 @@ a {
 }
 
 blockquote {
-  background-color: mix($background-color, $accent-color, 90%);
-  border-left-color: $accent-color;
+  background-color: white;
+  border-left-color: #FFBB00;
+  border-left-width: medium;
 }
 
 /* ==========================================================================
